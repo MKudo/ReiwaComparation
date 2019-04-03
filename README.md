@@ -56,7 +56,8 @@ web アプリ開発者で normalize 知らない人は以下のリンクを読�
 CJK 統合拡張に「令」や「和」の異体字があるかはチェックしていないので、そこで事故ったらごめんなさい
 
 ## References
-- [Glossary of Unicode Terms](www.unicode.org/glossary/)
+- [改元に伴う企業等の情報システム改修等への対応](https://www.meti.go.jp/policy/it_policy/kaigen/kaigen_taiou.html)
+- [Glossary of Unicode Terms](http://www.unicode.org/glossary/)
 - [Unicode Terminology English - Japanese](http://www.unicode.org/terminology/term_en_ja.html)
 - [Unicode Normalization Forms](http://www.unicode.org/reports/tr15/)
 - [Unicode Ideographic Variation Database](http://www.unicode.org/reports/tr37/)
