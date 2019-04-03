@@ -23,7 +23,7 @@ Unicode の入力で元号「令和」とみなさないといけないのは
 
 ## How to do it
 
-- [検証コード](/blob/master/src/main/java/io/github/mkudo/compare/Reiwa.java) 読んで下さい
+- [検証コード](/src/main/java/io/github/mkudo/compare/Reiwa.java) 読んで下さい
 
 java プログラムで何やってるかよく分からない人はググってください
 
