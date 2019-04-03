@@ -15,7 +15,7 @@ public class Reiwa {
 	public static final EraName REIWA_VS_E0101 = new EraName("令󠄁和", "VS_E0101");
 	public static final EraName REIWA_VS_E0102 = new EraName("令󠄂和", "VS_E0102");
 	// セクション的には Enclosed CJK Letters and Months じゃないか？
-	public static final EraName REIWA_CJK_COMPATIBILITY = new EraName(Character.toString(0x32ff), "合字");
+	public static final EraName REIWA_CJK_COMPATIBILITY = new EraName(Character.toString(0x32ff), "組文字");
 
 	private static final List<EraName> REIWA_VALIANTS = Collections.unmodifiableList(Arrays.asList(REIWA_NORMAL,
 			REIWA_KS_X_1001, REIWA_VS_FE00, REIWA_VS_E0101, REIWA_VS_E0102, REIWA_CJK_COMPATIBILITY));
@@ -26,7 +26,7 @@ public class Reiwa {
 		testAll("NFKC normalize + Remove VS", (new NFKCNormalize()).andThen(new RemoveVS()));
 
 		// ㍻ も normalize だけで行けるので、将来的には REIWA_CJK_COMPATIBILITY も normalize だけで通るはず
-		System.out.printf("㍻ is 平成 ? : %b", Normalizer.normalize("㍻", Normalizer.Form.NFKC));
+		System.out.printf("㍻ is 平成 ? : %b", Normalizer.normalize("㍻", Normalizer.Form.NFKC).equals("平成"));
 	}
 
 	private static final class EraName {
