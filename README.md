@@ -23,7 +23,7 @@ Unicode の入力で元号「令和」とみなさないといけないのは
 
 ## How to do it
 
-- [検証コード] (/blob/master/src/main/java/io/github/mkudo/compare/Reiwa.java) 読んで下さい
+- [検証コード](/blob/master/src/main/java/io/github/mkudo/compare/Reiwa.java) 読んで下さい
 
 java プログラムで何やってるかよく分からない人はググってください
 
@@ -40,8 +40,8 @@ java プログラムで何やってるかよく分からない人はググって
 - そもそも web アプリでユーザー入力の検証は、検証前に normalize することが推奨されているので、普通、やっているはず
 
 web アプリ開発者で normalize 知らない人は以下のリンクを読んでおきましょう（大事なリンクなので二回貼りました）
-- [文字列は検査するまえに標準化する] (https://www.jpcert.or.jp/java-rules/ids01-j.html)
-- [文字列は検査するまえに標準化する] (https://www.jpcert.or.jp/java-rules/ids01-j.html)
+- [文字列は検査するまえに標準化する](https://www.jpcert.or.jp/java-rules/ids01-j.html)
+- [文字列は検査するまえに標準化する](https://www.jpcert.or.jp/java-rules/ids01-j.html)
 
 ### Why need to remove VS
 
